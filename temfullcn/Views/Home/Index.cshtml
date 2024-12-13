@@ -1,0 +1,101 @@
+﻿@*
+
+@model IEnumerable<temfullcn.Models.Trongtai>
+
+*@
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<Trongtai>
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutKiemTra.cshtml";
+
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="center_content">
+    <div class="center_title_bar">Latest Products</div>
+
+@foreach (var item in Model) {
+
+
+    <div class="prod_box">
+        <div class="top_prod_box"></div>
+        <div class="center_prod_box">
+                <div class="product_title"><a href="details.html">@item.HoVaTen</a></div>
+                <div  class="product_img">
+
+                    <a href="details.html">
+                        <img style=" width: 100%;
+    height: 100%;
+    object-fit: cover; " src="@Url.Content("~/images/" + item.Anh)" alt="" border="0" />
+                    </a>
+                    
+                </div>
+                <div class="prod_price"><span class="reduce">350$</span> <span class="price">@item.NgaySinh</span></div>
+                <a asp-action="Edit" asp-route-id="@item.TrongTaiId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TrongTaiId">Details</a> |
+                <a href="#" onclick="return confirmDelete('@item.TrongTaiId');">Delete</a>
+
+        </div>
+        <div class="bottom_prod_box"></div>
+        <div class="prod_details_tab"> <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">details</a> </div>
+    </div>
+  
+}
+
+    <div class="product__pagination">
+        @*hien thi phan` phan trang tu 1 - 10 ... *@
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
+</div>
+
+
+
+
+
+<script>
+    function confirmDelete(trongTaiId) {
+        // Hiển thị hộp thoại xác nhận
+        var result = confirm("Bạn có chắc muốn xóa trọng tài này không?");
+
+        if (result) {
+            // Nếu người dùng xác nhận, thực hiện AJAX gọi đến server
+            $.ajax({
+                url: '/Delete', // Đường dẫn đến action Delete
+                type: 'POST', // Sử dụng phương thức POST để đảm bảo tính an toàn
+                data: { id: trongTaiId }, // Gửi ID trọng tài cần xóa
+                success: function (response) {
+                    alert('Trọng tài đã được xóa thành công.');
+                    window.location.reload(); // Tải lại trang để cập nhật danh sách
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error('Error:', textStatus, errorThrown); // Log lỗi để kiểm tra
+                    alert('Có lỗi xảy ra khi xóa trọng tài.');
+                }
+            });
+        }
+
+        return false; // Ngăn chặn hành động mặc định của thẻ <a>
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

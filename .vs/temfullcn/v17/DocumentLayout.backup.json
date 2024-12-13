@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\shared\\_layoutkiemtra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\shared\\_layoutkiemtra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\wwwroot\\tem\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\wwwroot\\tem\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\shared\\components\\trandau\\trandau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\shared\\components\\trandau\\trandau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\viewcomponents\\trandauviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\viewcomponents\\trandauviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\models\\trongtai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\models\\trongtai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|e:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\models\\trongtaitrandau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEB56D6-C76A-4C88-B063-D3D01DB004DC}|temfullcn\\temfullcn.csproj|solutionrelative:temfullcn\\models\\trongtaitrandau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:18:09.214Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutKiemTra.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Shared\\_LayoutKiemTra.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:02:19.044Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "temfullcn\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "temfullcn\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:38:04.888Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TranDau.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Shared\\Components\\TranDau\\TranDau.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Shared\\Components\\TranDau\\TranDau.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Shared\\Components\\TranDau\\TranDau.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Shared\\Components\\TranDau\\TranDau.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T12:22:49.557Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TranDauViewComponent.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\ViewComponents\\TranDauViewComponent.cs",
+              "RelativeDocumentMoniker": "temfullcn\\ViewComponents\\TranDauViewComponent.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\ViewComponents\\TranDauViewComponent.cs",
+              "RelativeToolTip": "temfullcn\\ViewComponents\\TranDauViewComponent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:22:32.829Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trongtai.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Models\\Trongtai.cs",
+              "RelativeDocumentMoniker": "temfullcn\\Models\\Trongtai.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Models\\Trongtai.cs",
+              "RelativeToolTip": "temfullcn\\Models\\Trongtai.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:40:03.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\wwwroot\\Tem\\style.css",
+              "RelativeDocumentMoniker": "temfullcn\\wwwroot\\Tem\\style.css",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\wwwroot\\Tem\\style.css",
+              "RelativeToolTip": "temfullcn\\wwwroot\\Tem\\style.css",
+              "ViewState": "AgIAAHACAAAAAAAAAAAAAHICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-13T16:26:39.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Home\\Create.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T15:57:27.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Home\\Details.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T14:02:06.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "temfullcn\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "temfullcn\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T13:43:22.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrongtaiTrandau.cs",
+              "DocumentMoniker": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Models\\TrongtaiTrandau.cs",
+              "RelativeDocumentMoniker": "temfullcn\\Models\\TrongtaiTrandau.cs",
+              "ToolTip": "E:\\zalo\\ltweb\\thicuoiky\\dung\\temfullcn\\temfullcn\\Models\\TrongtaiTrandau.cs",
+              "RelativeToolTip": "temfullcn\\Models\\TrongtaiTrandau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:22:41.271Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

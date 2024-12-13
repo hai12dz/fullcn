@@ -1,0 +1,117 @@
+﻿@model List<Trandau>
+
+@foreach (var item in Model)
+{
+
+ 
+
+
+    <li><a onclick="loadData('@item.TranDauId')" href="#" class="nav1"> @item.TranDauId</a></li>
+}
+
+
+
+
+
+<script type="text/javascript">
+    function loadData(MaTranDau) {
+       // const categoryId = $('#country1').val(); // Lấy CategoryId từ dropdown
+
+        $.ajax({
+            url: '@Url.Action("GetData", "Home")',
+            type: 'GET',
+            data: { MaTranDau:MaTranDau }, // Gửi CategoryId và keyword
+            success: function (response) {
+                let html = '';
+
+                if (Array.isArray(response) && response.length > 0) {
+
+                        html += `
+    <div class="center_content">
+        <div class="center_title_bar">Latest Products</div>`
+                    response.forEach(function (item) {
+                        html += `
+
+                             <div class="prod_box">
+            <div class="top_prod_box"></div>
+            <div class="center_prod_box">
+                    <div class="product_title"><a href="details.html">${item.hoVaTen}</a></div>
+                    <div  class="product_img">
+
+                        <a href="details.html">
+                               <img style="width: 100%; height: 100%; object-fit: cover;"
+         src="/images/${item.anh}" alt="" border="0" />
+
+                        </a>
+
+                    </div>
+                    <div class="prod_price"><span class="reduce">350$</span> <span class="price">${item.ngaySinh}</span></div>
+                            <div class="prod_actions">
+                 <a href="#" onclick="return editRecord('${item.trongTaiId}');">Edit</a> |
+             <a href="#" onclick="return viewDetails('${item.trongTaiId}');">Details</a> |
+             <a href="#" onclick="return confirmDelete('${item.trongTaiId}');">Delete</a>
+         </div>
+            </div>
+            <div class="bottom_prod_box"></div>
+            <div class="prod_details_tab"> <a href="#" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">details</a> </div>
+        </div>
+         
+
+                                   `;
+                    });
+                    html+=`</div>`
+                } else {
+                    html = '<p>Không tìm thấy sản phẩm nào!</p>';
+                }
+
+                $('.center_content').html(html); // Hiển thị sản phẩm
+            },
+            error: function () {
+                alert('Đã xảy ra lỗi, vui lòng thử lại!');
+            }
+        });
+    }
+</script>
+
+
+<script>
+
+    // Hàm xử lý chỉnh sửa (Edit)
+    function editRecord(trongTaiId) {
+        // Chuyển hướng đến trang Edit hoặc xử lý logic chỉnh sửa tại đây
+        window.location.href = `/Edit?id=${trongTaiId}`;
+        return false;
+    }
+
+    // Hàm xử lý xem chi tiết (Details)
+    function viewDetails(trongTaiId) {
+        // Chuyển hướng đến trang Details hoặc xử lý logic tại đây
+        window.location.href = `/Details?id=${trongTaiId}`;
+        return false;
+    }
+
+    // Hàm xác nhận và xóa (Delete)
+    function confirmDelete(trongTaiId) {
+        // Hiển thị hộp thoại xác nhận
+        var result = confirm("Bạn có chắc muốn xóa trọng tài này không?");
+
+        if (result) {
+            // Nếu người dùng xác nhận, thực hiện AJAX để xóa
+            $.ajax({
+                url: '/Delete',
+                type: 'POST',
+                data: { id: trongTaiId },
+                success: function (response) {
+                    alert('Trọng tài đã được xóa thành công.');
+                    loadData(trongTaiId); // Tải lại danh sách
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error('Error:', textStatus, errorThrown);
+                    alert('Có lỗi xảy ra khi xóa trọng tài.');
+                }
+            });
+        }
+
+        return false; // Ngăn chặn hành động mặc định của thẻ <a>
+    }
+    </script>
